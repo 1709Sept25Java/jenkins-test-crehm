@@ -4,4 +4,10 @@
   <artifactId>JenkinsDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <properties>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target> 			<!-- requires our compiler to take as a source and take as a target and apply Java 8 rules -->
+  </properties>
+  
 </project>
